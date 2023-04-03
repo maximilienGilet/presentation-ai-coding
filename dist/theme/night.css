@@ -13,7 +13,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: #111;
+  --r-background-color: #11111b;
   --r-main-font: Open Sans, sans-serif;
   --r-main-font-size: 40px;
   --r-main-color: #eee;
@@ -32,10 +32,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --r-heading3-size: 1.55em;
   --r-heading4-size: 1em;
   --r-code-font: monospace;
-  --r-link-color: #e7ad52;
-  --r-link-color-dark: #d08a1d;
-  --r-link-color-hover: #f3d7ac;
-  --r-selection-background-color: #e7ad52;
+  --r-link-color: #b4befe;
+  --r-link-color-dark: #b4befe;
+  --r-link-color-hover: #b4befe;
+  --r-selection-background-color: #b4befe;
   --r-selection-color: #fff;
 }
 
