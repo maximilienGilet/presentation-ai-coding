@@ -24,12 +24,18 @@
           <h2>🤖 ❤️ 🧑‍💻</h2>
         </section>
         <section>
-          <h2>👋</h2>
-          <h3>Maximilien Gilet</h3>
-          <p>
-            Développeur front
-            <a href="https://www.alltechconsulting.fr">@Alltech</a>
-          </p>
+          <div class="r-side-by-side">
+            <div>
+              <h2>👋</h2>
+              <h3>Maximilien Gilet</h3>
+              <p>
+                Développeur frontend
+                <a href="https://www.alltechconsulting.fr">@Alltech</a>
+              </p>
+            </div>
+            <img class="r-profile-picture" src="https://avatars.githubusercontent.com/u/10434870?v=4" alt="profile picture">
+          </div>
+          
         </section>
         <section>
           <aside class="notes">
@@ -70,6 +76,23 @@
               </li>
             </ul>
           </section>
+          <section>
+            <h2>Comment ça marche ?</h2>
+            <div class="fragment fade-up">
+              <strong>LLM</strong> : Large Language Model
+            </div>
+          </section>
+          <section>
+            <h3>LLM</h3>
+            <ul>
+              <li>Modèle de langage</li>
+              <li>Entrainé sur un corpus de texte</li>
+              <li>Prédiction de la suite du texte</li>
+            </ul>
+          </section>
+          <section>
+            <img src="assets/llm-prediction.webp" alt="Prédiction du prochain mot">
+          </section>
         </section>
         <section>
           <section>
@@ -90,160 +113,20 @@
             <img src="assets/chatgpt-home.png" />
           </section>
           <section>
-            <img src="assets/chatgpt-step-1.png" />
-          </section>
-          <section>
-            <img src="assets/chatgpt-step-2.png" />
-          </section>
-          <section>
-            <img src="assets/chatgpt-step-3.png" />
-          </section>
-          <section>
-            <img src="assets/chatgpt-step-4.png" />
+            <a href="https://chat.openai.com/share/32863b57-e167-4c25-96b0-09025e0f4dda" target="_blank" rel="noopener noreferrer">
+              Génération du code
+            </a>
           </section>
           <section>
             <iframe
               style="height: 60vh; width: 80vw"
-              src="assets/generated.html"
+              src="assets/generated2.html"
             ></iframe>
           </section>
           <section>
-            <pre style="height: 60vh">
-								<code data-trim data-line-numbers>
-									<!-- Hero Section -->
-									<section class="bg-blue-500 text-white">
-											<div class="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
-													<div class="flex flex-wrap -mx-4">
-															<div class="w-full md:w-1/2 px-4">
-																	<h1 class="text-4xl font-bold leading-tight">Leading Development Agency</h1>
-																	<p class="text-xl mt-4 mb-6">We help big corporations transform their business with innovative solutions.</p>
-																	<a href="#" class="inline-block bg-white text-blue-500 py-2 px-4 rounded-lg hover:bg-blue-500 hover:text-white">Contact Us</a>
-															</div>
-															<div class="w-full md:w-1/2 px-4">
-																	<img src="https://via.placeholder.com/400x300" alt="Development Agency Illustration" class="w-full h-auto">
-															</div>
-													</div>
-											</div>
-									</section>
-									<!-- Services Section -->
-									<section class="bg-gray-100 py-12">
-											<div class="container mx-auto px-4 sm:px-6 lg:px-8">
-													<h2 class="text-3xl font-bold text-gray-800 mb-6">Our Services</h2>
-													<div class="flex flex-wrap -mx-4">
-															<div class="w-full md:w-1/3 px-4 mb-6">
-																	<div class="bg-white rounded-lg shadow-lg py-6 px-8">
-																			<img src="https://via.placeholder.com/150x150" alt="Service 1 Icon" class="mx-auto mb-4">
-																			<h3 class="text-xl font-bold mb-2">Service 1</h3>
-																			<p class="text-gray-700 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-																	</div>
-															</div>
-															<div class="w-full md:w-1/3 px-4 mb-6">
-																	<div class="bg-white rounded-lg shadow-lg py-6 px-8">
-																			<img src="https://via.placeholder.com/150x150" alt="Service 2 Icon" class="mx-auto mb-4">
-																			<h3 class="text-xl font-bold mb-2">Service 2</h3>
-																			<p class="text-gray-700 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-																	</div>
-															</div>
-															<div class="w-full md:w-1/3 px-4 mb-6">
-																	<div class="bg-white rounded-lg shadow-lg py-6 px-8">
-																			<img src="https://via.placeholder.com/150x150" alt="Service 3 Icon" class="mx-auto mb-4">
-																			<h3 class="text-xl font-bold mb-2">Service 3</h3>
-																			<p class="text-gray-700 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-																	</div>
-															</div>
-															<p class="text-gray-700 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-														</div>
-												</div>
-											</section>
-											<!-- About Us Section -->
-											<section class="bg-white py-12">
-												<div class="container mx-auto px-4 sm:px-6 lg:px-8">
-														<h2 class="text-3xl font-bold text-gray-800 mb-6">About Us</h2>
-														<div class="flex flex-wrap -mx-4">
-																<div class="w-full md:w-1/2 px-4 mb-6">
-																		<p class="text-gray-700 leading-relaxed mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-																		<p class="text-gray-700 leading-relaxed mb-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-																</div>
-																<div class="w-full md:w-1/2 px-4">
-																		<img src="https://via.placeholder.com/400x300" alt="About Us Illustration" class="w-full h-auto">
-																</div>
-														</div>
-												</div>
-											</section>
-											<!-- Contact Us Section -->
-											<section class="bg-gray-800 text-white py-12">
-												<div class="container mx-auto px-4 sm:px-6 lg:px-8">
-														<div class="flex flex-wrap -mx-4">
-																<div class="w-full md:w-1/2 px-4 mb-6">
-																		<h2 class="text-3xl font-bold mb-4">Contact Us</h2>
-																		<p class="text-xl mb-4">Ready to take your business to the next level? Let's talk!</p>
-																		<ul class="text-lg">
-																				<li class="mb-2"><i class="far fa-envelope mr-2"></i> info@developmentagency.com</li>
-																				<li class="mb-2"><i class="fas fa-phone mr-2"></i> +1 (555) 555-5555</li>
-																				<li class="mb-2"><i class="fas fa-map-marker-alt mr-2"></i> 123 Main St, Suite 100, Anytown, USA</li>
-																		</ul>
-																</div>
-																<div class="w-full md:w-1/2 px-4 mb-6">
-																		<form class="bg-white rounded-lg shadow-lg py-6 px-4">
-																			<h2 class="text-3xl font-bold text-gray-800 mb-4">Send us a message</h2>
-																			<div class="mb-4">
-																					<label class="block text-gray-700 font-bold mb-2" for="name">
-																							Name
-																					</label>
-																					<input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Enter your name">
-																			</div>
-																			<div class="mb-4">
-																					<label class="block text-gray-700 font-bold mb-2" for="email">
-																							Email
-																					</label>
-																					<input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Enter your email">
-																			</div>
-																			<div class="mb-4">
-																					<label class="block text-gray-700 font-bold mb-2" for="message">
-																							Message
-																					</label>
-																					<textarea class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="4" placeholder="Enter your message"></textarea>
-																			</div>
-																			<div class="flex items-center justify-between">
-																					<button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-																							Send
-																					</button>
-																			</div>
-																	</form>
-															</div>
-													</div>
-											</div>
-											</section>
-											<!-- Footer Section -->
-											<footer class="bg-gray-900 text-white py-6">
-											<div class="container mx-auto px-4 sm:px-6 lg:px-8">
-													<div class="flex flex-wrap justify-between items-center">
-															<div class="w-full sm:w-auto text-center sm:text-left mb-4 sm:mb-0">
-																	<p class="text-gray-500">&copy; 2023 Development Agency. All rights reserved.</p>
-															</div>
-															<div class="w-full sm:w-auto text-center sm:text-right">
-																	<ul class="list-none">
-																			<li class="inline-block mr-4">
-																					<a href="#" class="text-gray-500 hover:text-white">
-																							<i class="fab fa-facebook fa-2x"></i>
-																					</a>
-																			</li>
-																			<li class="inline-block mr-4">
-																					<a href="#" class="text-gray-500 hover:text-white">
-																							<i class="fab fa-twitter fa-2x"></i>
-																					</a>
-																			</li>
-																			<li class="inline-block">
-																					<a href="#" class="text-gray-500 hover:text-white">
-																							<i class="fab fa-linkedin fa-2x"></i>
-																					</a>
-																			</li>
-																	</ul>
-															</div>
-													</div>
-											</div>
-											</footer>
-								</code></pre>
+            <a href="https://chat.openai.com/share/bdc1c6b1-e318-4091-bfbc-23eaf066d86f" target="_blank" rel="noopener noreferrer">
+              Autre exemple de génération de hook React
+            </a>
           </section>
         </section>
         <section>
@@ -332,7 +215,6 @@
         <section>
           <section>
             <h2>Mon RetEx</h2>
-            <p>Après 2 mois</p>
             <ul>
               <li><strong>2x</strong> plus productif pour le code</li>
               <li><strong>4x</strong> plus productif pour les tests</li>
@@ -415,23 +297,19 @@
               </ul>
           </section>
           <section>
-            <h3>Open <del>AI</del> <ins>Wallet</ins></h3>
-            <img src="assets/wallet.gif">
-          </section>
-          <section>
             <h3>Problématiques générales</h3>
             <ul>
-              <li>Rien de vraiment "open" (source)</li>
+              <li>Peu de choses vraiment "open" (source)</li>
               <ul>
-                <li>Modèles verouillés</li>
+                <li>Beaucoup de modèles verouillés</li>
               </ul>
               <li>Accessible uniquement aux grandes entreprises</li>
               <li>Récupération discutable des données</li>
             </ul>
           </section>
           <section>
-            <h3>Microsoft dans l'ombre</h3>
-            <p>& big corps</p>
+            <h3>Big corps dans l'ombre</h3>
+            <p>Coucou Microsoft</p>
             <img style="width: 30vw;" src="assets/tinfoil.gif">
           </section>
         </section>
@@ -445,6 +323,7 @@
               <ul>
                 <li>De plus en plus facile</li>
                 <li>De moins en moins cher</li>
+                <li>Travaux open source colossaux</li>
               </ul>
               <li>Self-hosting possible sur un laptop</li>
             </ul>
@@ -453,28 +332,23 @@
             <h3>Émergence d'outils meta</h3>
             <ul>
               <li>Auto-GPT</li>
-              <li>BabyAGI</li>
-              <li>Jarvis</li>
+              <li>GPT 4 All</li>
+              <li>AgentGPT</li>
             </ul>
           </section>
           <section>
-            <img src="assets/autogpt.jpeg">
+            <img src="assets/TOT.jpeg">
           </section>
         </section>
         <section>
           <section>
-            <h2>Conclusion générale</h2>
+            <h2>Les 3 choses à retenir</h2>
           </section>
           <section>
             <ul>
-              <li>Évolution frénétique</li>
-              <li>Gain de productivité</li>
-              <li>Beaucoup de fantasme journalistique</li>
-              <li>Excellent pour du brainstorming</li>
-              <li>Ne produit pas du tout cuit</li>
-              <li>Questions éthiques</li>
-              <li>Pour les juniors: un professeur dispo 24/24</li>
-              <li>Attention aux big corps</li>
+              <li>Gain de productivité énorme</li>
+              <li>Écosystème en ébulition</li>
+              <li>Marque le début d'une nouvelle ère</li>
             </ul>
           </section>
           <section>
@@ -485,16 +359,12 @@
           <h2>Questions ?</h2>
           <h3>🤖</h3>
           <small>
-            <p>Fun facts :</p>
-            <ul>
-              <li>Pitch modifié 25 fois en 25 jours</li>
-              <li>Depuis le début du pitch :</li>
+            <p>Depuis le début du pitch :</p>
               <ul>
                 <li>3 nouveaux modèles révolutionnaires sont sortis</li>
                 <li>825 nouvelles personnes se revendiquent "prompt engineer"</li>
                 <li>Ce pitch est déjà obsolète</li>
               </ul>
-            </ul>
           </small>
         </section>
       </div>

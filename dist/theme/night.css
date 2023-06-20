@@ -356,3 +356,24 @@ section.has-light-background, section.has-light-background h1, section.has-light
     background-color: var(--r-background-color);
   }
 }
+
+/*********************************************
+ * Layout utilities
+ *********************************************/
+
+ /* Side by side layout */
+.reveal .r-side-by-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+/* Profile picture */
+.reveal .r-profile-picture {
+  width: 30%;
+  margin: 0;
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: 5px 5px var(--r-link-color);
+}
